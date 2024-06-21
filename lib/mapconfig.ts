@@ -44,7 +44,7 @@ export const INITIAL_VIEW_STATE: {
 } = {
   longitude: 112.7577713,
   latitude:  -7.2792446,
-  zoom: 13,
+  zoom: 14,
   minZoom: 5,
   maxZoom: 22
 };
