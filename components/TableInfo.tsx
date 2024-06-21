@@ -37,7 +37,7 @@ const TableInfo: React.FC<PolygonInfoTableProps> = ({ info, index }) => {
     };
     return (
       <div className='px-4'>
-      <h1 className='my-2 text-xl'>Titik Pengujian: {index}</h1>
+      <h1 className='my-2 text-xl'>Titik Pengujian {index}</h1>
       <Table>
           <TableHeader>
               <TableRow>

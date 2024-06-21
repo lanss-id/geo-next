@@ -30,17 +30,17 @@ const page = () => {
               <TableRow>
                 <TableCell>3</TableCell>
                 <TableCell>Luqmanul Hakim Isun</TableCell>
-                <TableCell>20352012</TableCell>
+                <TableCell>2035201012</TableCell>
               </TableRow>
               <TableRow>
                 <TableCell>4</TableCell>
                 <TableCell>Dimas Misbahul Qolbi</TableCell>
-                <TableCell>20352063</TableCell>
+                <TableCell>2035201063</TableCell>
               </TableRow>
               <TableRow>
                 <TableCell>5</TableCell>
                 <TableCell>Moch. Dimas Gumilang</TableCell>
-                <TableCell>20352065</TableCell>
+                <TableCell>2035201065</TableCell>
               </TableRow>
             </TableBody>
           </Table>

@@ -7,7 +7,7 @@ const page = () => {
         <Nav />
         <div className="text-center">
             <h1 className="text-5xl mt-4">Tentang Website</h1>
-            <p className="text-2xl mt-4">Website ini ditujukan untuk pemenuhan nilai matakuliah &quot;Wawasan dan Aplikasi Teknologi&quot;</p>
+            <p className="text-2xl mt-4">Kewirausahaan berbasis teknologi</p>
         </div>
       </>      
   )

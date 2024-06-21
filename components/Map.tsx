@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import Map from 'react-map-gl';
-import { PolygonLayer } from '@deck.gl/layers';
+import { PolygonLayer, TextLayer } from '@deck.gl/layers';
 import DeckGL from '@deck.gl/react';
 import "mapbox-gl/dist/mapbox-gl.css";
 import {
@@ -51,8 +51,20 @@ const LocationAggregatorMap = () => {
                 onClick: () => setPopupInfo({ info: polygonData[key as keyof typeof polygonData].info, coordinates, index: key }),
             });
         });
-
-        setLayers(polygonLayers);
+        
+        const textLayers = Object.keys(polygonData).map((key: string) => {
+            const { coordinates } = polygonData[key as keyof typeof polygonData];
+            const center = coordinates.reduce((acc, coord) => [acc[0] + coord[0], acc[1] + coord[1]], [0, 0]).map(val => val / coordinates.length);
+            return new TextLayer({
+                id: `text-layer-${key}`,
+                data: [{ position: center, text: `Pengujian ${key}` }],
+                getPosition: d => d.position,
+                getText: d => d.text,
+                getSize: 12,
+                getColor: [0, 0, 0, 255],
+            });
+        });
+        setLayers([...polygonLayers, ...textLayers]);
     }, []);
 
     return (
