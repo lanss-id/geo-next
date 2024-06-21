@@ -1,48 +1,49 @@
 import React from 'react'
 import Nav from '@/components/Nav'
+import { Table, TableHeader, TableBody, TableRow, TableHead, TableCell } from '@/components/ui/table'
 
 const page = () => {
   return (
       <>
         <Nav />
         <h1 className="text-5xl text-center">Anggota Kelompok</h1>
-        <div className="overflow-x-auto flex justify-center mt-4">
-        <table className="table-lg text-[#000] text-lg">
-            <thead>
-                <tr>
-                    <th></th>
-                    <th>Nama</th>
-                    <th>NIM</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <th>1</th>
-                    <td>Yafie Ikhsan Sasongko</td>
-                    <td>2035201004</td>
-                </tr>
-                <tr>
-                    <th>2</th>
-                    <td>Fadhilah Fahirannisa</td>
-                    <td>2035201006</td>
-                </tr>
-                <tr>
-                    <th>3</th>
-                    <td>Luqmanul Hakim Isun</td>
-                    <td>20352012</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Dimas Misbahul Qolbi</td>
-                    <td>20352063</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>Moch. Dimas Gumilang</td>
-                    <td>20352065</td>
-                </tr>
-                </tbody>
-            </table>
+        <div className="mt-4 max-w-lg mx-auto">
+          <Table className="text-[#000] text-lg">
+            <TableHeader>
+              <TableRow>
+                <TableHead></TableHead>
+                <TableHead>Nama</TableHead>
+                <TableHead>NIM</TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              <TableRow>
+                <TableCell>1</TableCell>
+                <TableCell>Yafie Ikhsan Sasongko</TableCell>
+                <TableCell>2035201004</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>2</TableCell>
+                <TableCell>Fadhilah Fahirannisa</TableCell>
+                <TableCell>2035201006</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>3</TableCell>
+                <TableCell>Luqmanul Hakim Isun</TableCell>
+                <TableCell>20352012</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>4</TableCell>
+                <TableCell>Dimas Misbahul Qolbi</TableCell>
+                <TableCell>20352063</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>5</TableCell>
+                <TableCell>Moch. Dimas Gumilang</TableCell>
+                <TableCell>20352065</TableCell>
+              </TableRow>
+            </TableBody>
+          </Table>
         </div>
       </>
   )
