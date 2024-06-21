@@ -89,25 +89,25 @@
   }
 
   .muka-tanah {
-    background-color: #87CEEB; /* Warna biru muda */
+    background-color: #fdf4eb; /* Warna biru muda */
 }
 
 .very-soft {
-    background-color: #FFDAB9; /* Warna peach */
+    background-color: #ffe3cb; /* Warna peach */
 }
 
 .soft {
-    background-color: #FFA07A; /* Warna salmon */
+    background-color: #f5bfa9; /* Warna salmon */
 }
 
 .medium {
-    background-color: #CD853F; /* Warna coklat */
+    background-color: #f3b474; /* Warna coklat */
 }
 
 .stiff {
-    background-color: #8B4513; /* Warna coklat tua */
+    background-color: #e6975f; /* Warna coklat tua */
 }
 
 .hard {
-    background-color: #FF4500; /* Warna merah oranye */
+    background-color: #ff9751; /* Warna merah oranye */
 }
