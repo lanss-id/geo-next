@@ -1,0 +1,92 @@
+{
+  "data": [
+    {
+      "coordinates": [112.7707121351945, -7.26760279826471],
+      "info": {
+        "Muka Tanah": 0.00,
+        "Very Soft": -10.00,
+        "Soft": -12.00,
+        "Medium": -14.00,
+        "Stiff": -16.00,
+        "Hard": -20.00
+      }
+    },
+    {
+      "coordinates": [112.7619253, -7.2660084],
+      "info": {
+        "Muka Tanah": 0.00,
+        "Very Soft": -10.00,
+        "Soft": -12.00,
+        "Medium": -14.00,
+        "Stiff": -16.00,
+        "Hard": -20.00
+      }
+    },
+    {
+      "coordinates": [112.7664108184446, -7.27593926539131],
+      "info": {
+        "Muka Tanah": 0.00,
+        "Very Soft": -15.00,
+        "Soft": -16.00,
+        "Medium": -17.00,
+        "Stiff": -18.00,
+        "Hard": -20.00
+      }
+    },
+    {
+      "coordinates": [112.7594876003489, -7.281357714068273],
+      "info": {
+        "Muka Tanah": 0.00,
+        "Very Soft": -3.00,
+        "Soft": -5.00,
+        "Medium": -10.00,
+        "Stiff": -11.00,
+        "Hard": -17.00
+      }
+    },
+    {
+      "coordinates": [112.7493089, -7.277507200000001],
+      "info": {
+        "Muka Tanah": 0.00,
+        "Very Soft": -2.00,
+        "Soft": -4.00,
+        "Medium": -10.00,
+        "Stiff": -14.00,
+        "Hard": -15.00
+      }
+    },
+    {
+      "coordinates": [112.7504642, -7.268197199999999],
+      "info": {
+        "Muka Tanah": 0.00,
+        "Very Soft": -5.00,
+        "Soft": -9.00,
+        "Medium": -10.00,
+        "Stiff": -15.00,
+        "Hard": -23.00
+      }
+    },
+    {
+      "coordinates": [112.7595155, -7.291517799999999],
+      "info": {
+        "Muka Tanah": 0.00,
+        "Very Soft": -10.00,
+        "Soft": -11.00,
+        "Medium": -15.00,
+        "Stiff": -20.00,
+        "Hard": -24.00
+      }
+    },
+    {
+      "coordinates": [112.7618292, -7.2993855],
+      "info": {
+        "Muka Tanah": 0.00,
+        "Very Soft": -10.00,
+        "Soft": -15.00,
+        "Medium": -18.00,
+        "Stiff": -20.00,
+        "Hard": -30.00
+      }
+    }
+  ]
+}

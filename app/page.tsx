@@ -10,7 +10,7 @@ export default function Home() {
         <p className="text-2xl">Website Berbasis Bank Data dengan Metode Pendekatan untuk Variabel Konsistensi Tanah di Kec. Gubeng Surabaya </p>
       </div>
       <div>
-      <div className="relative min-h-[80vh] max-w-[95vw] mx-auto my-10 rounded-3xl overflow-hidden">
+      <div className="relative min-h-[80vh] max-w-[95vw] mx-auto my-10 overflow-hidden">
         <LocationAggregatorMap />
       </div>
       </div>

@@ -111,3 +111,37 @@
 .hard {
     background-color: #c06d2edc; /* Warna merah oranye */
 }
+
+#map-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.location {
+  position: absolute;
+  cursor: pointer;
+}
+
+.location .point {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.location:hover .point,
+.location.active .point {
+  transform: scale(1.5);
+  background-color: blue;
+}
+
+.location-1 { top: 10%; left: 59%; }
+.location-2 { top: 7.5%; left: 50%; }
+.location-3 { top: 30%; left: 55%; }
+.location-4 { top: 43.4%; left: 46%; }
+.location-5 { top: 35%; left: 34%; }
+.location-6 { top: 14%; left: 34%; }
+.location-7 { top: 68%; left: 47%; }
+.location-8 { top: 87%; left: 49.5%; }

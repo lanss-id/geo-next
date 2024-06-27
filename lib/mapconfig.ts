@@ -43,10 +43,10 @@ export const INITIAL_VIEW_STATE: {
   maxZoom: number;
 } = {
   longitude: 112.7577713,
-  latitude:  -7.2792446,
-  zoom: 14,
-  minZoom: 5,
-  maxZoom: 22
+  latitude:  -7.28333333,
+  zoom: 13.5,
+  minZoom: 13,
+  maxZoom: 15
 };
 
 export const colorRange: [number, number, number][] = [
