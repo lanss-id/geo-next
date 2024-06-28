@@ -126,7 +126,7 @@
 .location .point {
   width: 10px;
   height: 10px;
-  background-color: red;
+  background-color: #49fa04;
   border-radius: 50%;
   transition: all 0.3s ease;
 }
@@ -134,14 +134,14 @@
 .location:hover .point,
 .location.active .point {
   transform: scale(1.5);
-  background-color: blue;
+  background-color: rgb(255, 37, 37);
 }
 
-.location-1 { top: 10%; left: 59%; }
-.location-2 { top: 7.5%; left: 50%; }
-.location-3 { top: 30%; left: 55%; }
-.location-4 { top: 43.4%; left: 46%; }
-.location-5 { top: 35%; left: 34%; }
-.location-6 { top: 14%; left: 34%; }
-.location-7 { top: 68%; left: 47%; }
-.location-8 { top: 87%; left: 49.5%; }
+.location-1 { top: 39.7%; left: 41.47%; }
+.location-2 { top: 38%; left: 36%; }
+.location-3 { top: 48.1%; left: 38.8%; }
+.location-4 { top: 53.8%; left: 34.5%; }
+.location-5 { top: 49.8%; left: 28.1%; }
+.location-6 { top: 40.3%; left: 29%; }
+.location-7 { top: 64.1%; left: 34.5%; }
+.location-8 { top: 72.2%; left: 35.9%; }

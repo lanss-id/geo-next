@@ -11,19 +11,18 @@ import {
     INITIAL_VIEW_STATE,
 } from "@/lib/mapconfig";
 
-import polygonData from "@/public/polygonMaps.json";
 import conturePointData from "@/public/ConturePoint.json";
 import TableInfo from './TableInfo';
 import Image from 'next/image';
 
-interface PolygonInfo {
-    "Muka Tanah": number;
-    "Very Soft": number;
-    "Soft": number;
-    "Medium": number;
-    "Stiff": number;
-    "Hard": number;
-}
+// interface PolygonInfo {
+//     "Muka Tanah": number;
+//     "Very Soft": number;
+//     "Soft": number;
+//     "Medium": number;
+//     "Stiff": number;
+//     "Hard": number;
+// }
 
 // interface PolygonData {
 //   coordinates: number[][];
@@ -31,11 +30,12 @@ interface PolygonInfo {
 //   color: string;
 // }
 
-const LocationAggregatorMap = () => {
+  
+
+const LocationAggregatorMap= () => {
     // const [layers, setLayers] = useState<any[]>([]);
     const [popupInfo, setPopupInfo] = useState<{ info: any, coordinates: any, index: any } | null>(null);
     const [isPopupOpen, setIsPopupOpen] = useState(false);
-
     // useEffect(() => {
     //     // const maxHardValue = Math.max(...Object.values(polygonData).map((p: PolygonData) => p.info.Hard));
 
@@ -109,12 +109,13 @@ const LocationAggregatorMap = () => {
                 >
                 </Map>
             </DeckGL> */}
-            <div className='relative w-[1856px] h-[989px]'>
+            <div className='relative w-[1800px] h-[1096px]'>
                 <Image
-                    src="/maps-fullconture.png"
+                    src="/map-geo.png"
                     alt="map"
                     layout='fill'
                     objectFit='cover'
+                    // className='opacity-25'
                 />
                 {conturePointData.data.map((point, index) => (
                     <div key={`location-${point.coordinates.join('-')}`}  className={`location location-${index + 1}`}>
@@ -123,12 +124,12 @@ const LocationAggregatorMap = () => {
                             className="point"
                             onClick={() => handleMarkerClick(point.info, point.coordinates, index + 1)}
                         />
-                        <button
+                        {/* <button
                             className="point-label block -ml-8" 
                             onClick={() => handleMarkerClick(point.info, point.coordinates, index + 1)}
                         >
                             Pengujian {index + 1}
-                        </button>
+                        </button> */}
                     </div>
                 ))}
 
