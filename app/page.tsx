@@ -2,9 +2,9 @@
 
 import LocationAggregatorMap from "@/components/Map";
 import Nav from "@/components/Nav";
+import SearchBar from "@/components/SearchBar";
 
 export default function Home() {
-
   return (
     <main>
       <Nav />
