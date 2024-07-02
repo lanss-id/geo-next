@@ -43,8 +43,15 @@ const LocationAggregatorMap= () => {
                 <SearchBar onSelect={handleSearchSelect} selectedOption={selectedOption} onOptionChange={handleOptionChange}  />
             </div>
             <div className='relative w-[1800px] h-[1096px]'>
-                <Image
+                {/* <Image
                     src="/map-geo.png"
+                    alt="map"
+                    layout='fill'
+                    objectFit='cover'
+                    className='opacity-25'
+                /> */}
+                <Image
+                    src="/final-map.png"
                     alt="map"
                     layout='fill'
                     objectFit='cover'
